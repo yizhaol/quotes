@@ -84,6 +84,13 @@ button:active{opacity:1}
 <audio id="backgroud-music" controls="controls" autoplay="autoplay" loop="loop">
     <source src="./music.mp3">
 </audio>
+ <button onclick="refreshPage()">刷新</button>
+
+    <script>
+        function refreshPage() {
+            location.reload(); // 刷新页面
+        }
+    </script>
 <div id="background" class="wall"></div>
 <div id="midground" class="wall"></div>
 <div id="foreground" class="wall"></div>
